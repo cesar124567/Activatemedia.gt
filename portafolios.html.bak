@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Portafolio — Activate Media</title>
   <meta name="description" content="Portafolio — Activate Media: Medios, Activaciones, Imagen en punto de venta" />
-  <link rel="icon" href="favicon.ico">
+
+  <!-- link al css externo -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
     <header class="pf-header">
       <div class="brand">
-        <img src="logo_transparent.png" alt="Activate Media">
+        <img src="Logo_transparent.png" alt="Activate Media">
         <div>
           <div class="brand-title">ACTIVATE</div>
           <div class="brand-sub">Generar impacto distingue tu marca</div>
@@ -43,61 +44,72 @@
 
       <!-- GRID -->
       <section id="gallery" class="grid" aria-live="polite">
+        <!-- Cada .thumb tiene data-category con las categorías (se permiten varias separadas por espacios) -->
         <article class="thumb" data-category="medios">
           <button class="thumb-btn" aria-label="Abrir Proyecto 1">
-            <img class="thumb-img" src="proyecto-1.png" data-src="proyecto-1.png" alt="Lona publicitaria - Proyecto 1">
+            <img class="thumb-img" data-src="Proyecto 1.png" alt="Lona publicitaria - Proyecto 1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           </button>
           <div class="caption">Proyecto 1 — Lona exterior</div>
         </article>
 
         <article class="thumb" data-category="medios">
           <button class="thumb-btn" aria-label="Abrir Proyecto 3">
-            <img class="thumb-img" src="proyecto-3.png" data-src="proyecto-3.png" alt="Valla urbana - Proyecto 3">
+            <img class="thumb-img" data-src="Proyecto 3.png" alt="Valla urbana - Proyecto 3" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           </button>
           <div class="caption">Proyecto 3 — Valla urbana</div>
         </article>
 
         <article class="thumb" data-category="medios">
           <button class="thumb-btn" aria-label="Abrir Proyecto 4">
-            <img class="thumb-img" src="proyecto-4.png" data-src="proyecto-4.png" alt="Mupi - Proyecto 4">
+            <img class="thumb-img" data-src="Proyecto 4.png" alt="Mupi - Proyecto 4" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           </button>
           <div class="caption">Proyecto 4 — Mupi</div>
         </article>
 
         <article class="thumb" data-category="activaciones">
           <button class="thumb-btn" aria-label="Abrir Proyecto 5">
-            <img class="thumb-img" src="proyecto-5.png" data-src="proyecto-5.png" alt="Stand ferial - Proyecto 5">
+            <img class="thumb-img" data-src="Proyecto 5.png" alt="Stand ferial - Proyecto 5" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           </button>
           <div class="caption">Proyecto 5 — Stand ferial</div>
         </article>
 
-        <article class="thumb" data-category="activaciones">
-          <button class="thumb-btn" aria-label="Abrir Proyecto 6">
-            <img class="thumb-img" src="proyecto-6.png" data-src="proyecto-6.png" alt="Activación en tienda - Proyecto 6">
-          </button>
-          <div class="caption">Proyecto 6 — Activación en tienda</div>
-        </article>
+            <article class="thumb" data-category="activaciones">
+            <button class="thumb-btn" aria-label="Abrir Proyecto 6">
+                <img class="thumb-img" data-src="Proyecto 6.png" alt="Activación en tienda - Proyecto 6" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+            </button>
+            <div class="caption">Proyecto 6 — Activación en tienda</div>
+            </article>
 
         <article class="thumb" data-category="punto-venta">
           <button class="thumb-btn" aria-label="Abrir Proyecto 7">
-            <img class="thumb-img" src="proyecto-7.png" data-src="proyecto-7.png" alt="Display promocional - Proyecto 7">
+            <img class="thumb-img" data-src="Proyecto 7.png" alt="Display promocional - Proyecto 7" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           </button>
           <div class="caption">Proyecto 7 — Display promocional</div>
         </article>
 
         <article class="thumb" data-category="punto-venta medios">
           <button class="thumb-btn" aria-label="Abrir Proyecto 2">
-            <img class="thumb-img" src="proyecto-2.png" data-src="proyecto-2.png" alt="Vinil y señalética - Proyecto 2">
+            <img class="thumb-img" data-src="Proyecto 2.png" alt="Vinil y señalética - Proyecto 2" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           </button>
           <div class="caption">Proyecto 2 — Vinil y señalética</div>
         </article>
 
-        <article class="thumb" data-category="punto-venta medios">
-          <button class="thumb-btn" aria-label="Abrir Macrobus">
-            <img class="thumb-img" src="macrobus.png" data-src="macrobus.png" alt="Macrobus">
+<article class="thumb" data-category="punto-venta medios">
+          <button class="thumb-btn" aria-label="Abrir Proyecto 2">
+            <img class="thumb-img" data-src="      Macrobus.png" alt="Vinil y señalética - Proyecto 2" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
           </button>
-          <div class="caption">Macrobus</div>
+          <div class="caption">Macrobus </div>
         </article>
+
+
+
+
+
+
+
+
+
+        <!-- Añade más thumbs según necesites -->
       </section>
 
       <footer class="pf-footer">
@@ -120,6 +132,7 @@
   <script defer src="main.js"></script>
   <noscript>
     <style>
+      /* Si JS está desactivado, muestra las imágenes directamente (mejor experiencia) */
       .thumb-img { opacity:1; }
     </style>
   </noscript>

@@ -7,17 +7,14 @@
   <meta name="description" content="Activate Media S.A. - Diseño, impresión e instalación de viniles, pancartas y publicidad exterior." />
   <meta name="theme-color" content="#111827" />
 
-  <!-- favicon (opcional, evita 404) -->
-  <link rel="icon" href="favicon.ico">
-
-  <!-- CSS externo (ruta relativa correcta) -->
+  <!-- CSS externo -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
     <header>
       <div class="brand">
-        <img src="logo_transparent.png" alt="Activate Media logo">
+        <img src="Logo_transparent.png" alt="Activate Media logo">
         <div>
           <div class="brand-title">ACTIVATE</div>
           <div class="brand-sub">Generar impacto distingue tu marca</div>
@@ -65,6 +62,8 @@
             </div>
           </div>
         </div>
+
+        <!-- He eliminado el bloque hero-visual según solicitaste -->
       </section>
 
       <section id="como" class="reveal" style="margin-top:28px">
@@ -118,7 +117,7 @@
       <footer style="margin-top:36px">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
           <div>© Activate Media S.A. — Todos los derechos reservados</div>
-          <div class="muted">Síguenos: <a href="https://www.instagram.com/activatemedia_gt/" style="color:var(--muted)">Instagram</a> • <a href="https://www.facebook.com/profile.php/?id=100084297606675" style="color:var(--muted)">Facebook</a></div>
+          <div class="muted">Síguenos: <a href="https://www.instagram.com/activatemedia_gt/" style="color:var(--muted)">Instagram</a> • <a href="https://www.facebook.com/profile.php/?id=100084297606675x" style="color:var(--muted)">Facebook</a></div>
         </div>
       </footer>
     </main>
