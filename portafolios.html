@@ -1,127 +1,122 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portafolio — Activate Media</title>
-  <meta name="description" content="Portafolio — Activate Media: Medios, Activaciones, Imagen en punto de venta" />
-  <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portafolio - Activate Media S.A.</title>
+  <meta name="description" content="Nuestros proyectos de publicidad exterior en Guatemala. Rotulación de vehículos, vallas, pasacalles y activaciones." />
+  <meta name="theme-color" content="#111827" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <header class="pf-header">
-      <div class="brand">
-        <img src="logo_transparent.png" alt="Activate Media">
-        <div>
-          <div class="brand-title">ACTIVATE</div>
-          <div class="brand-sub">Generar impacto distingue tu marca</div>
-        </div>
-      </div>
+  <div class="container">
+    <header class="pf-header">
+      <div class="brand">
+        <a href="index.html">
+          <img src="Logo.png" alt="Activate Media logo">
+        </a>
+        <div>
+          <div class="brand-title">ACTIVATE</div>
+          <div class="brand-sub">Generar impacto distingue tu marca</div>
+        </div>
+      </div>
+      <nav aria-label="Menú principal">
+        <a href="index.html#servicios">Servicios</a>
+        <a href="portafolios.html" class="active">Portafolio</a>
+        <a href="index.html#como">Cómo trabajamos</a>
+        <a href="index.html#contacto">Contacto</a>
+        <a class="cta" href="index.html#contacto">Pedir cotización</a>
+      </nav>
+    </header>
 
-      <nav aria-label="Menú principal">
-        <a href="index.html">Inicio</a>
-        <a href="portafolios.html" class="active">Portafolio</a>
-        <a href="index.html#como">Cómo trabajamos</a>
-        <a href="index.html#contacto">Contacto</a>
-      </nav>
-    </header>
+    <main>
+      <section class="hero-compact reveal">
+        <span class="eyebrow">Nuestros Proyectos</span>
+        <h1>El impacto de tu marca en las calles.</h1>
+        <p class="muted">Explora nuestra galería de trabajos y descubre la variedad de soluciones que ofrecemos para que tu marca se vea en grande.</p>
+      </section>
 
-    <main>
-      <div class="hero-compact">
-        <h1>Portafolio</h1>
-        <p class="muted">Explora nuestros trabajos por categoría. Haz click en cualquier imagen para verla ampliada.</p>
-      </div>
+      <div class="filters reveal" role="tablist" aria-label="Filtros de proyectos">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+        <button class="filter-btn" data-filter="rotativos" role="tab" aria-selected="false">Medios Rotativos</button>
+        <button class="filter-btn" data-filter="fijos" role="tab" aria-selected="false">Medios Fijos</button>
+        <button class="filter-btn" data-filter="activaciones" role="tab" aria-selected="false">Activaciones</button>
+        <button class="filter-btn" data-filter="punto-venta" role="tab" aria-selected="false">Punto de Venta</button>
+      </div>
 
-      <!-- FILTROS -->
-      <div class="filters" role="tablist" aria-label="Filtros de portafolio">
-        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todos</button>
-        <button class="filter-btn" data-filter="medios" role="tab">Medios Publicidad</button>
-        <button class="filter-btn" data-filter="activaciones" role="tab">Activaciones</button>
-        <button class="filter-btn" data-filter="punto-venta" role="tab">Punto de venta</button>
-      </div>
+      <div class="grid">
+        <div class="thumb reveal" data-category="rotativos">
+          <button class="thumb-btn">
+            <img class="thumb-img" data-src="https://via.placeholder.com/600x600/6f2bd9/ffffff?text=TUK-TUK" alt="Rotulación de Tuk-Tuk">
+          </button>
+          <div class="caption">Rotulación de Tuk-Tuk para rutas urbanas</div>
+        </div>
 
-      <!-- GRID -->
-      <section id="gallery" class="grid" aria-live="polite">
-        <article class="thumb" data-category="medios">
-          <button class="thumb-btn" aria-label="Abrir Proyecto 1">
-            <img class="thumb-img" src="proyecto-1.png" data-src="proyecto-1.png" alt="Lona publicitaria - Proyecto 1">
-          </button>
-          <div class="caption">Proyecto 1 — Lona exterior</div>
-        </article>
+        <div class="thumb reveal" data-category="fijos">
+          <button class="thumb-btn">
+            <img class="thumb-img" data-src="https://via.placeholder.com/600x600/9b3bff/ffffff?text=VALLA+PUBL" alt="Valla publicitaria en carretera">
+          </button>
+          <div class="caption">Valla publicitaria en Carretera a El Pacífico</div>
+        </div>
 
-        <article class="thumb" data-category="medios">
-          <button class="thumb-btn" aria-label="Abrir Proyecto 3">
-            <img class="thumb-img" src="proyecto-3.png" data-src="proyecto-3.png" alt="Valla urbana - Proyecto 3">
-          </button>
-          <div class="caption">Proyecto 3 — Valla urbana</div>
-        </article>
+        <div class="thumb reveal" data-category="activaciones">
+          <button class="thumb-btn">
+            <img class="thumb-img" data-src="https://via.placeholder.com/600x600/6f2bd9/ffffff?text=ACTIVADORES" alt="Activadores con pancartas">
+          </button>
+          <div class="caption">Activación con pancartas y volantes</div>
+        </div>
 
-        <article class="thumb" data-category="medios">
-          <button class="thumb-btn" aria-label="Abrir Proyecto 4">
-            <img class="thumb-img" src="proyecto-4.png" data-src="proyecto-4.png" alt="Mupi - Proyecto 4">
-          </button>
-          <div class="caption">Proyecto 4 — Mupi</div>
-        </article>
+        <div class="thumb reveal" data-category="punto-venta">
+          <button class="thumb-btn">
+            <img class="thumb-img" data-src="https://via.placeholder.com/600x600/9b3bff/ffffff?text=FACHADA" alt="Fachada de tienda rotulada">
+          </button>
+          <div class="caption">Rotulación de fachada de tienda</div>
+        </div>
 
-        <article class="thumb" data-category="activaciones">
-          <button class="thumb-btn" aria-label="Abrir Proyecto 5">
-            <img class="thumb-img" src="proyecto-5.png" data-src="proyecto-5.png" alt="Stand ferial - Proyecto 5">
-          </button>
-          <div class="caption">Proyecto 5 — Stand ferial</div>
-        </article>
+        <div class="thumb reveal" data-category="fijos">
+          <button class="thumb-btn">
+            <img class="thumb-img" data-src="https://via.placeholder.com/600x600/6f2bd9/ffffff?text=PASACALLE" alt="Manta pasacalle en avenida">
+          </button>
+          <div class="caption">Manta pasacalle en áreas estratégicas</div>
+        </div>
 
-        <article class="thumb" data-category="activaciones">
-          <button class="thumb-btn" aria-label="Abrir Proyecto 6">
-            <img class="thumb-img" src="proyecto-6.png" data-src="proyecto-6.png" alt="Activación en tienda - Proyecto 6">
-          </button>
-          <div class="caption">Proyecto 6 — Activación en tienda</div>
-        </article>
+        <div class="thumb reveal" data-category="rotativos">
+          <button class="thumb-btn">
+            <img class="thumb-img" data-src="https://via.placeholder.com/600x600/9b3bff/ffffff?text=MICROBUS" alt="Rotulación de Microbús">
+          </button>
+          <div class="caption">Rotulación de Microbús para rutas a distancia</div>
+        </div>
 
-        <article class="thumb" data-category="punto-venta">
-          <button class="thumb-btn" aria-label="Abrir Proyecto 7">
-            <img class="thumb-img" src="proyecto-7.png" data-src="proyecto-7.png" alt="Display promocional - Proyecto 7">
-          </button>
-          <div class="caption">Proyecto 7 — Display promocional</div>
-        </article>
+        <div class="thumb reveal" data-category="activaciones">
+          <button class="thumb-btn">
+            <img class="thumb-img" data-src="https://via.placeholder.com/600x600/6f2bd9/ffffff?text=BICITAXI" alt="Bicicletas activadoras en la calle">
+          </button>
+          <div class="caption">Bicicletas activadoras en el casco urbano</div>
+        </div>
 
-        <article class="thumb" data-category="punto-venta medios">
-          <button class="thumb-btn" aria-label="Abrir Proyecto 2">
-            <img class="thumb-img" src="proyecto-2.png" data-src="proyecto-2.png" alt="Vinil y señalética - Proyecto 2">
-          </button>
-          <div class="caption">Proyecto 2 — Vinil y señalética</div>
-        </article>
+        <div class="thumb reveal" data-category="punto-venta">
+          <button class="thumb-btn">
+            <img class="thumb-img" data-src="https://via.placeholder.com/600x600/9b3bff/ffffff?text=STANDS" alt="Exhibidores de marca">
+          </button>
+          <div class="caption">Fabricación e instalación de stands</div>
+        </div>
+      </div>
+      <footer class="pf-footer">
+        <div>© Activate Media S.A. — Todos los derechos reservados</div>
+        <div class="muted">Síguenos: <a href="https://www.instagram.com/activatemedia_gt/" style="color:var(--muted)">Instagram</a> • <a href="https://www.facebook.com/profile.php/?id=100084297606675" style="color:var(--muted)">Facebook</a></div>
+      </footer>
+    </main>
+  </div>
 
-        <article class="thumb" data-category="punto-venta medios">
-          <button class="thumb-btn" aria-label="Abrir Macrobus">
-            <img class="thumb-img" src="macrobus.png" data-src="macrobus.png" alt="Macrobus">
-          </button>
-          <div class="caption">Macrobus</div>
-        </article>
-      </section>
+  <div class="float-actions" aria-hidden="true">
+    <a class="wa" href="https://wa.me/50266352293?text=Hola%20Activate%20Media%2C%20quiero%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener" aria-label="WhatsApp">☏</a>
+    <button class="top" id="btnTop" aria-label="Ir arriba">↑</button>
+  </div>
 
-      <footer class="pf-footer">
-        <a href="index.html" class="back">← Volver al inicio</a>
-        <div class="muted">© Activate Media S.A. — Todos los derechos reservados</div>
-      </footer>
-    </main>
-  </div>
-
-  <!-- LIGHTBOX -->
-  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Imagen ampliada">
-    <button id="lbClose" class="lb-close" aria-label="Cerrar">✕</button>
-    <button id="lbPrev" class="lb-nav" aria-label="Anterior">‹</button>
-    <img id="lbImg" src="" alt="">
-    <button id="lbNext" class="lb-nav" aria-label="Siguiente">›</button>
-    <div id="lbCaption" class="lb-caption" aria-live="polite"></div>
-  </div>
-
-  <!-- script externo -->
-  <script defer src="main.js"></script>
-  <noscript>
-    <style>
-      .thumb-img { opacity:1; }
-    </style>
-  </noscript>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <button class="close" id="lbClose" aria-label="Cerrar">✕</button>
+    <img id="lbImg" src="" alt="Vista ampliada">
+  </div>
+  <script src="main.js" defer></script>
 </body>
 </html>
